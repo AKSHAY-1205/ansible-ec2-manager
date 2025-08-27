@@ -1,0 +1,14 @@
+# Ignore private key files
+*.pem
+
+# Ignore Ansible Vault password
+vault.pass
+
+# Ignore unencrypted vars file (if you keep plain credentials)
+group_vars/all/aws.yml
+
+# Ignore temporary files
+*.retry
+*.log
+__pycache__/
+
